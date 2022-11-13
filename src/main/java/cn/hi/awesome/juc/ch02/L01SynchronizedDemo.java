@@ -1,11 +1,11 @@
-package cn.hi.awesome.juc.ch01;
+package cn.hi.awesome.juc.ch02;
 
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class L05SynchronizedDemo {
+public class L01SynchronizedDemo {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         TwoPlus t = new TwoPlus();
